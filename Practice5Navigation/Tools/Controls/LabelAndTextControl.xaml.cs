@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace KMA.ProgrammingInCSharp2019.Practice5.Navigation.Tools.Controls
+namespace KMA.ProgrammingInCSharp2019.Lab03.Navigation.Tools.Controls
 {
     public partial class LabelAndTextControl
     {

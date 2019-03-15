@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace KMA.ProgrammingInCSharp2019.Practice5.Navigation.Tools
+namespace KMA.ProgrammingInCSharp2019.Lab03.Navigation.Tools
 {
     public class RelayCommand<T> : ICommand
     {

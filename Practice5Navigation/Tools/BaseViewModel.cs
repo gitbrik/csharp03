@@ -2,7 +2,7 @@
 using System.Runtime.CompilerServices;
 using KMA.ProgrammingInCSharp2019.Practice3.LoginControlMVVM.Properties;
 
-namespace KMA.ProgrammingInCSharp2019.Practice5.Navigation.Tools
+namespace KMA.ProgrammingInCSharp2019.Lab03.Navigation.Tools
 {
     internal abstract class BaseViewModel:INotifyPropertyChanged
     {

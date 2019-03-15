@@ -785,7 +785,7 @@ namespace KMA.ProgrammingInCSharp2019.Practice3.LoginControlMVVM.Properties
   /// </summary>
   /// <example><code>
   /// [ActionName("Foo")]
-  /// public ActionResult Login(string returnUrl) {
+  /// public ActionResult FName(string returnUrl) {
   ///   ViewBag.ReturnUrl = Url.Action("Foo"); // OK
   ///   return RedirectToAction("Bar"); // Error: Cannot resolve action
   /// }

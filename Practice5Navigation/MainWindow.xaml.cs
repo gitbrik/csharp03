@@ -1,10 +1,10 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
-using KMA.ProgrammingInCSharp2019.Practice5.Navigation.Tools.Managers;
-using KMA.ProgrammingInCSharp2019.Practice5.Navigation.Tools.Navigation;
-using KMA.ProgrammingInCSharp2019.Practice5.Navigation.ViewModels;
+using KMA.ProgrammingInCSharp2019.Lab03.Navigation.Tools.Managers;
+using KMA.ProgrammingInCSharp2019.Lab03.Navigation.Tools.Navigation;
+using KMA.ProgrammingInCSharp2019.Lab03.Navigation.ViewModels;
 
-namespace KMA.ProgrammingInCSharp2019.Practice5.Navigation
+namespace KMA.ProgrammingInCSharp2019.Lab03.Navigation
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

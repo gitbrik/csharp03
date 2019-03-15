@@ -1,9 +1,9 @@
 ﻿using System;
-using KMA.ProgrammingInCSharp2019.Practice5.Navigation.Views.Authentication;
-using MainView = KMA.ProgrammingInCSharp2019.Practice5.Navigation.Views.MainView;
-using SignUpView = KMA.ProgrammingInCSharp2019.Practice5.Navigation.Views.Authentication.SignUpView;
+using KMA.ProgrammingInCSharp2019.Lab03.Navigation.Views.Authentication;
+using MainView = KMA.ProgrammingInCSharp2019.Lab03.Navigation.Views.MainView;
+using SignUpView = KMA.ProgrammingInCSharp2019.Lab03.Navigation.Views.Authentication.SignUpView;
 
-namespace KMA.ProgrammingInCSharp2019.Practice5.Navigation.Tools.Navigation
+namespace KMA.ProgrammingInCSharp2019.Lab03.Navigation.Tools.Navigation
 {
     internal class InitializationNavigationModel : BaseNavigationModel
     {
@@ -20,10 +20,10 @@ namespace KMA.ProgrammingInCSharp2019.Practice5.Navigation.Tools.Navigation
                     ViewsDictionary.Add(viewType,new SignInView());
                     break;
                 case ViewType.SignUp:
-                    ViewsDictionary.Add(viewType, new SignUpView());
+                    ViewsDictionary.Add(viewType, new Views.Authentication.SignUpView());
                     break;
                 case ViewType.Main:
-                    ViewsDictionary.Add(viewType, new MainView());
+                    ViewsDictionary.Add(viewType, new Views.MainView());
                     break;
                 default:
                     throw new ArgumentOutOfRangeException(nameof(viewType), viewType, null);

@@ -1,8 +1,8 @@
 ﻿using System.Windows;
-using KMA.ProgrammingInCSharp2019.Practice5.Navigation.Tools;
-using KMA.ProgrammingInCSharp2019.Practice5.Navigation.Tools.Managers;
+using KMA.ProgrammingInCSharp2019.Lab03.Navigation.Tools;
+using KMA.ProgrammingInCSharp2019.Lab03.Navigation.Tools.Managers;
 
-namespace KMA.ProgrammingInCSharp2019.Practice5.Navigation.ViewModels
+namespace KMA.ProgrammingInCSharp2019.Lab03.Navigation.ViewModels
 {
     internal class MainWindowViewModel : BaseViewModel, ILoaderOwner
     {

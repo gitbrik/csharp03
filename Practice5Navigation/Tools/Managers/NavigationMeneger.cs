@@ -1,6 +1,6 @@
-﻿using KMA.ProgrammingInCSharp2019.Practice5.Navigation.Tools.Navigation;
+﻿using KMA.ProgrammingInCSharp2019.Lab03.Navigation.Tools.Navigation;
 
-namespace KMA.ProgrammingInCSharp2019.Practice5.Navigation.Tools.Managers
+namespace KMA.ProgrammingInCSharp2019.Lab03.Navigation.Tools.Managers
 {
     internal class NavigationManager
     {

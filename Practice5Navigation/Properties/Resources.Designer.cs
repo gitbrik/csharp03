@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace KMA.ProgrammingInCSharp2019.Practice5.Navigation.Properties {
+namespace KMA.ProgrammingInCSharp2019.Lab03.Navigation.Properties {
     using System;
     
     
